@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace WpfTaskTracker.Models
 {
-    public class TaskItem
-    {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public DateTime Deadline { get; set; }
-        public int Priority { get; set; }
-        public bool IsCompleted { get; set; }
-    }
+   
+        public class TaskItem
+        {
+            public string Title { get; set; }
+            public DateTime Deadline { get; set; }
+            public int Priority { get; set; }
+        }
+    
 }
